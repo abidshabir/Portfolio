@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link>
 </head>
 <body>
-  <hearde>
+  <header>
     <div class="profile-container">
       <img src="profile.jpg" alt="Abid Shabir" class="profile-picture">
       <span class="profile-name">Abid Shabir</span>
@@ -20,9 +21,95 @@
     <a href="Resume.pdf">Resume</a>
     <a href="#contact">Contact Me</a>
   </nav>
+  </header>
   <main>
+    <!-- about-me -->
+    <section id="about">
+      <h1>About Me</h1>
+      <p>I am a recent graduate in Software Engineering, driven by a strong passion for designing intuitive and user-centered digital experiences. With a solid foundation in front-end development and a sharp eye for detail, I strive to harmonize functionality with aesthetics. My goal as a UI/UX designer is to craft designs that are not only visually compelling but also elevate usability and user satisfaction. Through hands-on experience, I am eager to further refine my skills and contribute to creating impactful and seamless user interactions.</p>
+    </section>
+    <!-- education -->
+    <section id="education">
+      <h1>Education</h1>
+      <div class="education-container">
+        <!-- First Education Section -->
+        <div class="education">
+          <h3>BS Software Engineering</h3>
+          <p id="centered-paragraph">COMSATS University Islamabad, Vehari Campus</p>
+          <p id="centered-paragraph">2020-2024</p>
+
+        </div>
+    
+        <!-- Second Education Section -->
+        <div class="education">
+          <h3>FSc Pre-Engineering</h3>
+          <p id="centered-paragraph">Punjab Group of Colleges, Mian Channu</p>
+          <p id="centered-paragraph">2018-2020</p>
+
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- certificates -->
+    <section id="certificates">
+      <h1>Certificates</h1>
+    
+      <div class="certificates-container">
+        <!-- First Certificate Section -->
+        <div class="certificate">
+          <h2>DigiSkills</h2>
+          <li>Graphic Design</li>
+          <li>Communication & Soft Skills</li>
+          <li>Freelancing</li>
+        </div>
+    
+        <!-- Second Certificate Section -->
+        <div class="certificate">
+          <h2>Great Learning Academy</h2>
+          <li>UI/UX for Beginners</li>
+          <li>Software Testing Tutorial</li>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <li>UI/UX Design</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>Figma</li>
+        <li>Adobe XD</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Responsive Design</li>
+        <li>Prototyping</li>
+      </div>
+    </section>    
+  
+    <!-- contact-me -->
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
   </main>
   <footer>
-  </footer>    
+    <p>&copy; 2025 Abid Shabir. All rights reserved.</p>
+  </footer> 
+  <script src="script.js"></script>   
 </body>
 </html>
